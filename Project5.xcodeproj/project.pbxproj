@@ -13,6 +13,7 @@
 		DF2D93CB2756288200220E9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF2D93C92756288200220E9C /* Main.storyboard */; };
 		DF2D93CD2756288400220E9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF2D93CC2756288400220E9C /* Assets.xcassets */; };
 		DF2D93D02756288400220E9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF2D93CE2756288400220E9C /* LaunchScreen.storyboard */; };
+		DF2D93D827562CFB00220E9C /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = DF2D93D727562CFB00220E9C /* start.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DF2D93CC2756288400220E9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF2D93CF2756288400220E9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF2D93D12756288400220E9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF2D93D727562CFB00220E9C /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				DF2D93CC2756288400220E9C /* Assets.xcassets */,
 				DF2D93CE2756288400220E9C /* LaunchScreen.storyboard */,
 				DF2D93D12756288400220E9C /* Info.plist */,
+				DF2D93D727562CFB00220E9C /* start.txt */,
 			);
 			path = Project5;
 			sourceTree = "<group>";
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF2D93D02756288400220E9C /* LaunchScreen.storyboard in Resources */,
+				DF2D93D827562CFB00220E9C /* start.txt in Resources */,
 				DF2D93CD2756288400220E9C /* Assets.xcassets in Resources */,
 				DF2D93CB2756288200220E9C /* Main.storyboard in Resources */,
 			);
@@ -297,7 +301,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -326,7 +330,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
