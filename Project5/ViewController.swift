@@ -69,7 +69,7 @@ class ViewController: UITableViewController {
     }
     
     func isPossible(word: String) -> Bool {
-        if word.utf16.count >= 2 {
+        
             guard var tempWord = title?.lowercased() else { return false }
             
             for letter in word {
@@ -79,9 +79,6 @@ class ViewController: UITableViewController {
                     return false
                 }
             }
-        } else {
-            return false
-        }
         
         return true
     }
@@ -91,9 +88,14 @@ class ViewController: UITableViewController {
     }
     
     func isReal(word: String) -> Bool {
+        if word.utf16.count < 3 || word.lowercased() == title?.lowercased() {
+            return false
+        }
+        
         let checker = UITextChecker()
         let range = NSRange(location: 0, length: word.utf16.count)
         let misspelledRange = checker.rangeOfMisspelledWord(in: word, range: range, startingAt: 0, wrap: false, language: "en")
+        
         return misspelledRange.location == NSNotFound
     }
     
